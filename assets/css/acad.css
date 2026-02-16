@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    
+    background-image: url("../img/cllg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h3{
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    font-size: 20px;
+}
+.academic-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.dept {
+    background: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    border-radius: 6px;
+    margin: 15px 0;
+    padding: 10px 15px;
+}
+
+.dept summary {
+    font-size: 70px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #003366;   
+}
+
+.course {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #3000b6;
+    border-radius: 4px;
+    background: #fff4f4;
+}
+
+.course a {
+    text-decoration: none;
+    color: #000000;
+    font-style: italic;
+    text-align: center;
+}
+
+.course a:hover {
+    text-decoration: underline;
+    color: #de0707;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+    color: #29af01;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}

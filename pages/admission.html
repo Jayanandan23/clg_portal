@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Admission | ABC College</title>
+<link rel="stylesheet" href="../assets/css/adm.css">
+</head>
+
+<body>
+
+<header>
+    <img src="../assets/img/clgg.jpg" width="80">
+    <h1>ABC College of Arts, Science & Commerce</h1>
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="academic.html">Academic</a>
+    <a href="admission.html">Admission</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
+
+<div class="container">
+<h2>Student Admission Form</h2>
+
+<form>
+
+
+<fieldset>
+<legend>Personal Information</legend>
+
+<label>Full Name:</label>
+<input type="text" name="name" required>
+
+<label>Date of Birth:</label>
+<input type="date" name="dob" required>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Other"> Other
+
+<label>Nationality:</label>
+<input type="text" name="nationality" value="Indian">
+
+</fieldset>
+
+
+<fieldset>
+<legend>Contact Details</legend>
+
+<label>Email ID:</label>
+<input type="email" name="email" required>
+
+<label>Mobile Number:</label>
+<input type="tel" name="phone" required>
+
+<label>Address:</label>
+<textarea name="address" rows="4"></textarea>
+</fieldset>
+
+
+
+<fieldset>
+<legend>Academic Details</legend>
+
+<label>Previous Qualification:</label>
+<select name="qualification">
+    <option>Higher Secondary (12th)</option>
+    <option>Diploma</option>
+    <option>Undergraduate</option>
+</select>
+
+<label>Percentage / Grade:</label>
+<input type="number" min="0" max="100">
+
+<label>Course Applying For:</label>
+<select name="course">
+    <option>B.Sc Computer Science</option>
+    <option>B.Sc Mathematics</option>
+    <option>BA English</option>
+    <option>BA Sociology</option>
+    <option>B.Com</option>
+    <option>BBA</option>
+</select>
+
+</fieldset>
+
+
+<fieldset>
+<legend>Documents Upload</legend>
+
+<label>Upload Photo:</label>
+<input type="file">
+
+<label>Upload Marksheet:</label>
+<input type="file">
+
+</fieldset>
+
+<fieldset>
+<legend>Declaration</legend>
+
+<input type="checkbox" required>
+I hereby declare that the above information is true to the best of my knowledge.
+
+</fieldset>
+
+<br>
+<input type="submit" value="Submit Application" onclick="alert('Application Submitted Successfully!')">
+<input type="reset" value="Clear Form">
+
+</form>
+</div>
+
+</body>
+</html>

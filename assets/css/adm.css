@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    
+    background-image: url("../img/cllg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.container{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 30px;
+    margin: 50px;
+    background-color: rgb(131, 143, 137);
+}
+header {
+    background: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background: #35ece3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+}
