@@ -9,15 +9,16 @@
 <body>
 
 <header>
-    <img src="../assets/img/clgg.jpg" width="80">
-    <h1>ABC College of Arts, Science & Commerce</h1>
+    
+    <h1>Admission Form</h1>
+
 </header>
 
 <nav>
     <a href="../index.html">Home</a>
     <a href="academic.html">Academic</a>
-    <a href="admission.html">Admission</a>
     <a href="gallery.html">Gallery</a>
+    <a href="info.html">Contact Us</a>
 </nav>
 
 <div class="container">
@@ -27,7 +28,8 @@
 
 
 <fieldset>
-<legend>Personal Information</legend>
+<h3>Personal Information</h3>
+
 
 <label>Full Name:</label>
 <input type="text" name="name" required>
@@ -35,14 +37,13 @@
 <label>Date of Birth:</label>
 <input type="date" name="dob" required>
 
-<label>Gender:</label><br>
-<input type="radio" name="gender" value="Male"> Male
-<input type="radio" name="gender" value="Female"> Female
-<input type="radio" name="gender" value="Other"> Other
-
-<label>Nationality:</label>
-<input type="text" name="nationality" value="Indian">
-
+<label>Gender:</label>
+<select name="gender" required>
+    <option value="">-- Select Gender --</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+</select>
 </fieldset>
 
 
@@ -102,7 +103,7 @@
 <legend>Declaration</legend>
 
 <input type="checkbox" required>
-I hereby declare that the above information is true to the best of my knowledge.
+<label>I hereby declare that the above information is true to the best of my knowledge.</label>
 
 </fieldset>
 
@@ -110,8 +111,11 @@ I hereby declare that the above information is true to the best of my knowledge.
 <input type="submit" value="Submit Application" onclick="alert('Application Submitted Successfully!')">
 <input type="reset" value="Clear Form">
 
+
 </form>
 </div>
 
 </body>
+<script src="../assets/js/adm.js"></script>
+
 </html>
